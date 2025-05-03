@@ -27,7 +27,7 @@
 
 <br>
 
-# 🖥Function description
+# ✨Function description
 ### 🛠插件核心功能
 #### Main color
 它能够智能识别右键图片中的核心配色方案，无论你偏好哪一种色彩，都能无缝应用于后续的各项功能操作中，轻松满足多样化的色彩需求<br>
@@ -44,7 +44,7 @@ It is capable of randomly extracting two different color combinations from the c
 <br>
 
 
-# 🖥Function description<br>Click to visit the Google Store for download and use.
+# 🏀Function description<br>Click to visit the Google Store for download and use.
 ### 可点击下方链接前往谷歌浏览器应用商店下载体验
 ## 🎯 [Click download](https://example.com](https://js.design/f/sTzZxY?p=130F2jNz2W&mode=design&linkelement=5-85](https://chromewebstore.google.com/detail/img-to-color/ohliokonkmedceklbhggnnnoidmjmgah) "")
 ###### 感谢你的使用，如果帮助到你了请给我一个Starred <br>Thank you for using it! If it has helped you, please give me a Star.

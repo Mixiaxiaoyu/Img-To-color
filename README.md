@@ -47,6 +47,6 @@ It is capable of randomly extracting two different color combinations from the c
 
 # 🏀Function description<br>Click to visit the Google Store for download and use.
 ### 可点击下方链接前往谷歌浏览器应用商店下载体验
-## 🎯 [Chrome Web Store](https://chromewebstore.google.com/detail/img-to-color/ohliokonkmedceklbhggnnnoidmjmgah)
+## 🎯 [download](https://chromewebstore.google.com/detail/img-to-color/ohliokonkmedceklbhggnnnoidmjmgah)
 ###### 感谢你的使用，如果帮助到你了请给我一个Starred <br>Thank you for using it! If it has helped you, please give me a Star.
  

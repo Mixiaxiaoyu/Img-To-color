@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Img To color - 使用说明</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="instructions.css" />
+    <!-- 使用本地 GSAP 文件 -->
+    <script src="js/gsap.js"></script>
+  </head>
+  <body>
+    <div class="cursor-follower"></div>
+    <div class="head">
+      <div class="head-content">
+        <div class="text-content">
+          <h1>
+            One-click to capture inspirational
+            <span class="color-text">color</span> palettes! img to
+            <span class="color-text">color</span> decodes visual DNA and
+            banishes <span class="color-text">color</span>-matching anxiety for
+            designers—forever
+          </h1>
+          <p>一键抓取灵感色谱，解码视觉基因，让设计从此告别配色焦虑！</p>
+        </div>
+        <div class="banner-image">
+          <svg
+            id="colorBlocks"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="568.996337890625"
+            height="432.99920654296875"
+            viewBox="0 0 568.996337890625 432.99920654296875"
+            fill="none"
+            style="overflow: visible"
+          >
+            <!-- 添加这个 style 属性 -->
+            <!-- 第一个绿色矩形 -->
+            <g id="block1">
+              <foreignObject
+                x="-5"
+                y="-5"
+                width="257.390869140625"
+                height="257.42828369140625"
+              >
+                <div
+                  xmlns="http://www.w3.org/1999/xhtml"
+                  style="
+                    backdrop-filter: blur(2px);
+                    clip-path: url(#bgblur_1);
+                    height: 100%;
+                    width: 100%;
+                  "
+                ></div>
+              </foreignObject>
+              <rect
+                x="0"
+                y="0"
+                width="247.390869140625"
+                height="247.42828106880188"
+                rx="24"
+                fill="#00FF01"
+                fill-opacity="0.8"
+              ></rect>
+              <defs>
+                <clipPath id="bgblur_1" transform="translate(5 5)">
+                  <rect
+                    x="0"
+                    y="0"
+                    width="247.390869140625"
+                    height="247.42828106880188"
+                    rx="24"
+                  />
+                </clipPath>
+              </defs>
+            </g>
+
+            <!-- 第二个红色矩形 -->
+            <g id="block2">
+              <foreignObject
+                x="50.660888671875"
+                y="149.64260864257812"
+                width="257.390869140625"
+                height="257.4281921386719"
+              >
+                <div
+                  xmlns="http://www.w3.org/1999/xhtml"
+                  style="
+                    backdrop-filter: blur(2px);
+                    clip-path: url(#bgblur_2);
+                    height: 100%;
+                    width: 100%;
+                  "
+                ></div>
+              </foreignObject>
+              <path
+                fill="#FE0000"
+                fill-opacity="0.8"
+                d="M79.6609 154.643L279.052 154.643C292.307 154.643 303.052 165.388 303.052 178.643L303.052 378.071C303.052 391.326 292.307 402.071 279.052 402.071L79.6609 402.071C66.4061 402.071 55.6609 391.326 55.6609 378.071L55.6609 178.643C55.6609 165.388 66.4061 154.643 79.6609 154.643Z"
+              ></path>
+              <defs>
+                <clipPath
+                  id="bgblur_2"
+                  transform="translate(-50.660888671875 -149.64260864257812)"
+                >
+                  <path
+                    d="M79.6609 154.643L279.052 154.643C292.307 154.643 303.052 165.388 303.052 178.643L303.052 378.071C303.052 391.326 292.307 402.071 279.052 402.071L79.6609 402.071C66.4061 402.071 55.6609 391.326 55.6609 378.071L55.6609 178.643C55.6609 165.388 66.4061 154.643 79.6609 154.643Z"
+                  />
+                </clipPath>
+              </defs>
+            </g>
+
+            <!-- 第三个黄色矩形 -->
+            <g id="block3">
+              <foreignObject
+                x="242.387451171875"
+                y="25.928497314453125"
+                width="257.390869140625"
+                height="257.4282989501953"
+              >
+                <div
+                  xmlns="http://www.w3.org/1999/xhtml"
+                  style="
+                    backdrop-filter: blur(2px);
+                    clip-path: url(#bgblur_3);
+                    height: 100%;
+                    width: 100%;
+                  "
+                ></div>
+              </foreignObject>
+              <path
+                fill="#EAFF00"
+                fill-opacity="0.8"
+                d="M271.387 30.9285L470.778 30.9285C484.033 30.9285 494.778 41.6737 494.778 54.9285L494.778 254.357C494.778 267.612 484.033 278.357 470.778 278.357L271.387 278.357C258.133 278.357 247.387 267.612 247.387 254.357L247.387 54.9285C247.387 41.6737 258.133 30.9285 271.387 30.9285Z"
+              ></path>
+              <defs>
+                <clipPath
+                  id="bgblur_3"
+                  transform="translate(-242.387451171875 -25.928497314453125)"
+                >
+                  <path
+                    d="M271.387 30.9285L470.778 30.9285C484.033 30.9285 494.778 41.6737 494.778 54.9285L494.778 254.357C494.778 267.612 484.033 278.357 470.778 278.357L271.387 278.357C258.133 278.357 247.387 267.612 247.387 254.357L247.387 54.9285C247.387 41.6737 258.133 30.9285 271.387 30.9285Z"
+                  />
+                </clipPath>
+              </defs>
+            </g>
+
+            <!-- 第四个蓝色矩形 -->
+            <g id="block4">
+              <foreignObject
+                x="316.60546875"
+                y="180.57089233398438"
+                width="257.390869140625"
+                height="257.4283142089844"
+              >
+                <div
+                  xmlns="http://www.w3.org/1999/xhtml"
+                  style="
+                    backdrop-filter: blur(2px);
+                    clip-path: url(#bgblur_4);
+                    height: 100%;
+                    width: 100%;
+                  "
+                ></div>
+              </foreignObject>
+              <rect
+                x="321.60546875"
+                y="185.57089233398438"
+                width="247.390869140625"
+                height="247.4282684326172"
+                rx="24"
+                fill="#0095FF"
+                fill-opacity="0.8"
+              ></rect>
+              <defs>
+                <clipPath
+                  id="bgblur_4"
+                  transform="translate(-316.60546875 -180.57089233398438)"
+                >
+                  <rect
+                    x="321.60546875"
+                    y="185.57089233398438"
+                    width="247.390869140625"
+                    height="247.4282684326172"
+                    rx="24"
+                  />
+                </clipPath>
+              </defs>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="head-image">
+      <div class="three-images">
+        <img src="myicon/right click menu.png" alt="图片2" />
+        <img src="myicon/right click menu1.png" alt="图片1" />
+        <img src="myicon/Img to color.png" alt="图片3" />
+      </div>
+      <div class="instruction-image">
+        <img src="myicon/instruction-image.jpg" alt="使用说明" />
+      </div>
+    </div>
+    <div class="features">
+      <div>
+        <h1>Function description</h1>
+        <p>介绍插件核心功能以及用法</p>
+      </div>
+    </div>
+    <div class="feature-points">
+      <div>
+        <h3>Main color</h3>
+        <p>
+          它能够智能识别右键图片中的核心配色方案，无论你偏好哪一种色彩，都能无缝应用于后续的各项功能操作中，轻松满足多样化的色彩需求
+        </p>
+        <p>
+          It can intelligently identify the core color scheme in the
+          right-clicked picture. No matter which color you prefer, it can be
+          seamlessly applied to subsequent various functional operations, easily
+          meeting diverse color requirements.
+        </p>
+        <div class="hover-circle"></div>
+        <div class="hover-text">
+          双击配色圈即可复制颜色<br />
+          You can copy the color by double - clicking the color - matching
+          circle.
+        </div>
+      </div>
+      <div>
+        <h3>Color according to choice</h3>
+        <p>
+          基于你挑选的色彩，它将通过系统化的色彩理论体系，为你呈现一系列兼具美感与专业性的适配色彩组合，满足多样化的色彩搭配需求
+        </p>
+        <p>
+          Based on the color you have selected, it will, through a systematic
+          color theory system, present you with a series of aesthetically
+          pleasing and professional color combinations that are suitable for the
+          chosen color, meeting diverse color matching needs.
+        </p>
+        <div class="hover-circle"></div>
+        <div class="hover-text">
+          双击配色方块即可复制颜色<br />
+          You can copy the color by double - clicking the color - matching
+          square.
+        </div>
+      </div>
+      <div>
+        <h3>Main Color Gradient Preview</h3>
+        <p>
+          它能够从核心配色方案中，随机抽取两组不同色彩组合，以多元视角生动展示丰富的色彩搭配效果
+        </p>
+        <p>
+          It is capable of randomly extracting two different color combinations
+          from the core color scheme, vividly demonstrating a rich variety of
+          color matching effects from multiple perspectives.
+        </p>
+        <div class="hover-circle"></div>
+        <div class="hover-text">
+          占时不支持复制渐变颜色<br />
+          Currently, copying gradient colors is not supported.
+        </div>
+      </div>
+    </div>
+    <div class="annotation">
+      <div>
+        <h1>annotation</h1>
+        <p>
+          本功能已全面适配各大主流设计平台及绝大多数图片网站。若使用过程中遇到任何问题，请通过邮件反馈。提交时烦请详细说明访问的具体网站名称、遇到的错误现象，若能附上操作过程的录屏视频，将更有助于我们快速定位并解决问题。感谢您的支持与配合！
+        </p>
+        <p>
+          This function has been fully adapted to major mainstream design
+          platforms and the vast majority of image websites. If you encounter
+          any problems during use, please provide feedback via email. When
+          submitting the feedback, kindly provide detailed information about the
+          specific website you visited and the error you encountered. Attaching
+          a screen recording of the operation process will be more helpful for
+          us to quickly locate and resolve the issue. Thank you for your support
+          and cooperation!
+        </p>
+        <div class="qa-container">
+          <div class="qa-item">
+            <div class="qa-cn">
+              <h4>Q：当鼠标右键时不出现插件</h4>
+              <p>表明右键处，没有图片或者没有识别到图片元素</p>
+            </div>
+            <div class="qa-en">
+              <h4>
+                Q: The plugin doesn't appear when the right - click button of
+                the mouse is pressed.
+              </h4>
+              <p>
+                It indicates that there is no picture at the right - click
+                position or that the picture element has not been recognized.
+              </p>
+            </div>
+          </div>
+          <div class="qa-item">
+            <div class="qa-cn">
+              <h4>Q：在某些网站图片上右键没有出现插件</h4>
+              <p>刷新网页后再尝试，若还是不行，请通过邮件反馈</p>
+            </div>
+            <div class="qa-en">
+              <h4>
+                Q: The plugin doesn't appear when you right-click on the
+                pictures of some websites.
+              </h4>
+              <p>
+                Try again after refreshing the web page. If it still doesn't
+                work, please provide feedback via email.
+              </p>
+            </div>
+          </div>
+          <div class="qa-item">
+            <div class="qa-cn">
+              <h4>Q：插件响应变慢是什么情况</h4>
+              <p>网络原因或者图片太大导致的，等待片或者刷新网页即可</p>
+            </div>
+            <div class="qa-en">
+              <h4>Q: What's the situation if the plugin responds slowly?</h4>
+              <p>
+                It is caused by network issues or the fact that the picture is
+                too large. Just wait for a while or refresh the web page.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/instructions.js"></script>
+  </body>
+</html>

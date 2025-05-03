@@ -1,0 +1,93 @@
+body {
+  width: 280px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.popup-container {
+  padding: 16px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 0;
+  color: #030020;
+}
+
+p {
+  font-size: 12px;
+  margin: 0;
+  color: rgb(167, 167, 167);
+}
+
+.plugin-name,
+.plugin-author,
+.bug-feedback {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.usage-instructions {
+  display: flex;
+  align-items: center;
+}
+
+/* 基础图标样式 */
+.icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
+  flex-shrink: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: block;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 图标悬停效果 */
+a.icon:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 每个区块的独立图标 */
+.plugin-name .icon {
+  background-image: url("./myicon/icon.png");
+}
+
+.plugin-author .icon {
+  background-image: url("./myicon/touxiang.png");
+}
+
+.bug-feedback .icon {
+  background-image: url("./myicon/gmail.svg");
+}
+
+.usage-instructions .icon {
+  background-image: url("./myicon/instructions.png");
+}
+
+.content {
+  flex: 1;
+}
+
+.plugin-name p,
+.plugin-author p,
+.bug-feedback p,
+.usage-instructions p {
+  margin-top: 8px;
+}

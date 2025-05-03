@@ -1,4 +1,5 @@
 
+
 # 🖼右键网页图片，即可帮助你获取该图片的配色信息推荐
 ### Right-click on any image on the webpage to get recommended color information extracted from it.
 ##### 使用本开源项目需严格遵守开源协议，本插件已经上架谷歌浏览器应用商店，可以直接从页面底部获取下载链接进行体验<br>The use of this open-source project must strictly comply with the open-source license. This plugin is now available on the Chrome Web Store, and you can directly obtain the download link from the bottom of the page to experience it.<br>如需修复bug，请Fork到本地，然后在提交
@@ -49,4 +50,11 @@ It is capable of randomly extracting two different color combinations from the c
 ### 可点击下方链接前往谷歌浏览器应用商店下载体验
 ## 🎯 [download](https://chromewebstore.google.com/detail/img-to-color/ohliokonkmedceklbhggnnnoidmjmgah)
 ###### 感谢你的使用，如果帮助到你了请给我一个Starred <br>Thank you for using it! If it has helped you, please give me a Star.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0) — see the [LICENSE](./LICENSE) file for details.
+
+**Attribution is required**: Any usage, distribution, or modification of this project must credit the original author [Mixiaxiaoyu](https://github.com/Mixiaxiaoyu).
+<br>
  

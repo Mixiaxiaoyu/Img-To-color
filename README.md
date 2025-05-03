@@ -1,7 +1,7 @@
 
 # 🖼右键网页图片，即可帮助你获取该图片的配色信息推荐
 ### Right-click on any image on the webpage to get recommended color information extracted from it.
-###### 使用本开源项目需严格遵守开源协议<br>Usage of this open-source project must strictly adhere to the open-source license.
+###### 使用本开源项目需严格遵守开源协议，本插件已经上架谷歌浏览器应用商店，可以直接从页面底部获取下载链接进行体验<br>Usage of this open-source project must strictly adhere to the open-source license.
 
 <br>
 
@@ -10,6 +10,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=1FBCF7&center=true&width=1200&lines=Contributions+and+bug+fixes+from+pros+are+warmly+welcome!)](https://git.io/typing-svg)
 
+<br>
 
 
 
@@ -18,9 +19,13 @@
 一键抓取灵感色谱，解码视觉基因，让设计从此告别配色焦虑
 <img src="./Preview img/1.gif" alt="" >
 
+<br>
+
 # 💻Design draft address.
 ### 🖌UI设计文件，如需编辑权限，请申请后邮件说明<br>If you need editing permissions, please apply and explain via email. 
 [Access the ImgToColor design draft.](https://example.com](https://js.design/f/sTzZxY?p=130F2jNz2W&mode=design&linkelement=5-85) "")
+
+<br>
 
 # 🖥Function description
 ### 🛠插件核心功能
@@ -36,7 +41,11 @@ Based on the color you have selected, it will, through a systematic color theory
 它能够从核心配色方案中，随机抽取两组不同色彩组合，以多元视角生动展示丰富的色彩搭配效果<br>
 It is capable of randomly extracting two different color combinations from the core color scheme, vividly demonstrating a rich variety of color matching effects from multiple perspectives.
 
+<br>
+
+
 # 🖥Function description<br>Click to visit the Google Store for download and use.
+### 可点击下方链接前往谷歌浏览器应用商店下载体验
 ## 🎯 [Click download](https://example.com](https://js.design/f/sTzZxY?p=130F2jNz2W&mode=design&linkelement=5-85](https://chromewebstore.google.com/detail/img-to-color/ohliokonkmedceklbhggnnnoidmjmgah) "")
 ###### 感谢你的使用，如果帮助到你了请给我一个Starred<br>Thank you for using it! If it has helped you, please give me a Star.
  

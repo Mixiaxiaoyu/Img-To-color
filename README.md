@@ -1,7 +1,7 @@
 
 # 🖼右键网页图片，即可帮助你获取该图片的配色信息推荐
 ### Right-click on any image on the webpage to get recommended color information extracted from it.
-###### 使用本开源项目需严格遵守开源协议，本插件已经上架谷歌浏览器应用商店，可以直接从页面底部获取下载链接进行体验<br>Usage of this open-source project must strictly adhere to the open-source license.
+##### 使用本开源项目需严格遵守开源协议，本插件已经上架谷歌浏览器应用商店，可以直接从页面底部获取下载链接进行体验<br>Usage of this open-source project must strictly adhere to the open-source license.
 
 <br>
 

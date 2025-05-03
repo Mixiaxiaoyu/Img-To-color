@@ -23,7 +23,8 @@
 
 # 💻Design draft address.
 ### 🖌UI设计文件，如需编辑权限，请申请后邮件说明<br>If you need editing permissions, please apply and explain via email. 
-[Access the ImgToColor design draft.](https://example.com](https://js.design/f/sTzZxY?p=130F2jNz2W&mode=design&linkelement=5-85) "")
+[Access the ImgToColor design draft.](https://js.design/f/sTzZxY?p=130F2jNz2W&mode=design&linkelement=5-85)
+
 
 <br>
 
@@ -46,6 +47,6 @@ It is capable of randomly extracting two different color combinations from the c
 
 # 🏀Function description<br>Click to visit the Google Store for download and use.
 ### 可点击下方链接前往谷歌浏览器应用商店下载体验
-## 🎯 [Click download](https://example.com](https://js.design/f/sTzZxY?p=130F2jNz2W&mode=design&linkelement=5-85](https://chromewebstore.google.com/detail/img-to-color/ohliokonkmedceklbhggnnnoidmjmgah) "")
+## 🎯 [Chrome Web Store](https://chromewebstore.google.com/detail/img-to-color/ohliokonkmedceklbhggnnnoidmjmgah)
 ###### 感谢你的使用，如果帮助到你了请给我一个Starred <br>Thank you for using it! If it has helped you, please give me a Star.
  
